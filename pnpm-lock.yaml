@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@capacitor/core':
-    specifier: 3.0.0
-    version: 3.0.0
+    specifier: 3.5.0
+    version: 3.5.0
   code-push:
     specifier: 4.0.2
     version: 4.0.2
@@ -17,13 +17,13 @@ devDependencies:
     version: 3.0.0
   '@capacitor/device':
     specifier: 1.0.0
-    version: 1.0.0(@capacitor/core@3.0.0)
+    version: 1.0.0(@capacitor/core@3.5.0)
   '@capacitor/dialog':
     specifier: 1.0.0
-    version: 1.0.0(@capacitor/core@3.0.0)
+    version: 1.0.0(@capacitor/core@3.5.0)
   '@capacitor/filesystem':
     specifier: 1.0.0
-    version: 1.0.0(@capacitor/core@3.0.0)
+    version: 1.0.0(@capacitor/core@3.5.0)
   '@commitlint/cli':
     specifier: 11.0.0
     version: 11.0.0
@@ -148,18 +148,18 @@ packages:
   /@capacitor-community/http@1.0.0:
     resolution: {integrity: sha512-0uG8UEG2nnuE5ltazv/Yi3uR+jpGsyj6VkORSg0F9xdoFaeFBAG+kFDQwnkOV1cKQDGO5KRHOucafdAXH0zOOA==}
     dependencies:
-      '@capacitor/android': 3.9.0(@capacitor/core@3.0.0)
-      '@capacitor/core': 3.0.0
-      '@capacitor/filesystem': 1.0.0(@capacitor/core@3.0.0)
-      '@capacitor/ios': 3.9.0(@capacitor/core@3.0.0)
+      '@capacitor/android': 3.9.0(@capacitor/core@3.5.0)
+      '@capacitor/core': 3.5.0
+      '@capacitor/filesystem': 1.0.0(@capacitor/core@3.5.0)
+      '@capacitor/ios': 3.9.0(@capacitor/core@3.5.0)
     dev: true
 
-  /@capacitor/android@3.9.0(@capacitor/core@3.0.0):
+  /@capacitor/android@3.9.0(@capacitor/core@3.5.0):
     resolution: {integrity: sha512-YTPyrh1NozEuYXWGtfqN27TLXUrLbZX9fggyd4JQ1yMaUZTmLPm5dCuznONhQ49aPkJnUJB02JfpHy/qGwa2Lw==}
     peerDependencies:
       '@capacitor/core': ^3.9.0
     dependencies:
-      '@capacitor/core': 3.0.0
+      '@capacitor/core': 3.5.0
     dev: true
 
   /@capacitor/cli@3.0.0:
@@ -187,41 +187,41 @@ packages:
       - supports-color
     dev: true
 
-  /@capacitor/core@3.0.0:
-    resolution: {integrity: sha512-JmKE6QEayo8MqWcApwMP5YFimpVb2mcIEHBwgP/P9nSAOxOcbdpJyd9HhBt5pzZAE1MBngPADWWwZLrdNSjCnA==}
+  /@capacitor/core@3.5.0:
+    resolution: {integrity: sha512-+CFSG+CztpFIir9gGqNEtAYuf6OWryQ8dojXoeozAkoz3mKvyFfcEfvLVPo/pw/B4zHIlNnJLHne6vbjAFbDKQ==}
     dependencies:
       tslib: 2.5.0
 
-  /@capacitor/device@1.0.0(@capacitor/core@3.0.0):
+  /@capacitor/device@1.0.0(@capacitor/core@3.5.0):
     resolution: {integrity: sha512-FdDjBXk2Bwiju3xDzElx2eT50SmucNm77CDgBqNHjj+QPHpifcVpfrmK8xmuidwOcTb3TSEbmwxLRTn/RVAtNg==}
     peerDependencies:
       '@capacitor/core': 3.0.0
     dependencies:
-      '@capacitor/core': 3.0.0
+      '@capacitor/core': 3.5.0
     dev: true
 
-  /@capacitor/dialog@1.0.0(@capacitor/core@3.0.0):
+  /@capacitor/dialog@1.0.0(@capacitor/core@3.5.0):
     resolution: {integrity: sha512-MsSS4mUx2BIfsQMe6XM4jVVeRpl2OuTsktdSm9dfKXM1PysTqXt+mfDvt8kmS1ahHvWb0+5cO9MuLkAcFWGOCA==}
     peerDependencies:
       '@capacitor/core': 3.0.0
     dependencies:
-      '@capacitor/core': 3.0.0
+      '@capacitor/core': 3.5.0
     dev: true
 
-  /@capacitor/filesystem@1.0.0(@capacitor/core@3.0.0):
+  /@capacitor/filesystem@1.0.0(@capacitor/core@3.5.0):
     resolution: {integrity: sha512-dneksUnpCSwTKZbUPeBR7th6XMR9iHGXMAKhtSCfeiNHm+QWaxPHCov3bxCHE3hyIstbkeC2Uipa0Lu8SW883Q==}
     peerDependencies:
       '@capacitor/core': 3.0.0
     dependencies:
-      '@capacitor/core': 3.0.0
+      '@capacitor/core': 3.5.0
     dev: true
 
-  /@capacitor/ios@3.9.0(@capacitor/core@3.0.0):
+  /@capacitor/ios@3.9.0(@capacitor/core@3.5.0):
     resolution: {integrity: sha512-GezPCJIujRHnF4wbrKJx6Q/mgFz0f9rmh/steTTXQZI+nEl6mHk6NWh8235p7YbhonYi5WD0rFNirrjGg1EaGw==}
     peerDependencies:
       '@capacitor/core': ^3.9.0
     dependencies:
-      '@capacitor/core': 3.0.0
+      '@capacitor/core': 3.5.0
     dev: true
 
   /@colors/colors@1.5.0:

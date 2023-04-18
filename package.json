@@ -68,11 +68,11 @@
     "code-push": "4.0.2"
   },
   "peerDependencies": {
-    "@capacitor-community/http": "1.0.0",
-    "@capacitor/core": "3.0.0",
-    "@capacitor/device": "1.0.0",
-    "@capacitor/dialog": "1.0.0",
-    "@capacitor/filesystem": "1.0.0"
+    "@capacitor-community/http": "1.4.1",
+    "@capacitor/core": "3.5.0",
+    "@capacitor/device": "1.1.2",
+    "@capacitor/dialog": "1.0.7",
+    "@capacitor/filesystem": "1.1.0"
   },
   "capacitor": {
     "android": {
@@ -80,11 +80,6 @@
     },
     "ios": {
       "src": "ios"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
 }
