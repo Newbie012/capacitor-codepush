@@ -1,6 +1,6 @@
 {
   "name": "capacitor-codepush",
-  "version": "1.0.1",
+  "version": "1.0.1.1",
   "description": "CodePush Plugin for Capacitor",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -15,8 +15,7 @@
     "swiftlint": "node-swiftlint",
     "build": "npm run clean && tsc && rollup -c rollup.config.js",
     "clean": "rimraf ./dist",
-    "watch": "tsc --watch",
-    "prepublishOnly": "npm run build"
+    "watch": "tsc --watch"
   },
   "keywords": [
     "capacitor",
